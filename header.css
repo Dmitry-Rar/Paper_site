@@ -1,0 +1,122 @@
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 80px;
+    background-color: white;
+    padding-left: 165px;
+    padding-right: 165px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #666666;
+}
+
+.simple-section {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 160px;
+    height: 22px;
+    font-family: "Ubuntu-Light";
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#sims1 {
+    height: 17px;
+    width: 17px;
+}
+
+#sims2 {
+    height: 17px;
+    width: 59px;
+    line-height: 23px;
+    font-size: 20px;
+    margin-top: auto;
+    font-weight: 100;
+}
+
+#sims3 {
+    height: 17px;
+    width: 32px;
+}
+
+#sims4 {
+    height: 17px;
+    width: 17px;
+}
+
+.navigation-words {
+    list-style-type: none;
+    width: 600px;
+    height: 24px;
+    display: flex;
+    flex-flow: row nowrap;
+    font-family: "Roboto";
+    font-weight: 400;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.navigation-words li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    transition-duration: 0.3s;
+}
+
+.navigation-words li a:hover {
+    color: #7875FE;
+    font-size: 21px;
+}
+
+#navw1 {
+    width: 103px;
+    height: 23px;
+}
+
+#navw2 {
+    width: 109px;
+    height: 23px;
+}
+
+#navw3 {
+    width: 52px;
+    height: 23px;
+}
+
+#navw4 {
+    width: 92px;
+    height: 23px;
+}
+
+.navigation-images {
+    list-style-type: none;
+    width: 78px;
+    height: 24px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+#navi1:hover {
+    content: url(/images/status=hover1.png);
+    transform: scale(1.05);
+}
+
+#navi2:hover {
+    content: url(/images/status=hover.png);
+    transform: scale(1.05);
+}
+
+#navi1 {
+    width: 24px;
+    height: 24px;
+    transition-duration: 0.3s;
+}
+
+#navi2 {
+    width: 24px;
+    height: 24px;
+    transition-duration: 0.3s;
+}

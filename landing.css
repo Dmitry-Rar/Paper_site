@@ -1,0 +1,65 @@
+.landing {
+    background-color: white;
+    height: 620px;
+    padding-left: 165px;
+    padding-right: 165px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing h3 {
+    margin: 0%;
+}
+
+.landing-image {
+    height: 560px;
+    align-self: flex-end;
+}
+
+.landing-left {
+    font-family: "Roboto";
+    display: flex;
+    flex-flow: column wrap;
+    width: 445px;
+    height: 361px;
+    justify-content: space-between;
+}
+
+.landing-left h3 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: #4C5866;
+}
+
+.landing-left p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 380px;
+    color: #85859B;
+    padding-right: 40px;
+}
+
+.landing-left a {
+    width: 155px;
+    height: 30px;
+    border: 1px solid #7875FE;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #7875FE;
+    align-content: center;
+    transition-duration: 0.5s;
+}
+
+.landing-left a:hover{
+    background-color: #7875FE;
+    color: white;
+    transform: scale(1.03);
+}

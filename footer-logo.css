@@ -1,0 +1,18 @@
+.footer-logo {
+    display: flex;
+    padding-left: 165px;
+    padding-right: 165px;
+    background-color: #dbdbdb;
+    height: 15px;
+    justify-content: center;
+}
+
+.footer-logo p {
+    font-family: "Roboto";
+    margin: 0%;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+    width: 92px;
+    height: 15px;
+}

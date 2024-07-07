@@ -1,0 +1,115 @@
+.main {
+    background-color: #dbdbdb;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    height: 793px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.main ul li {
+    display: flex;
+    flex-flow: column wrap;
+    width: 350px;
+    height: 118px;
+    align-content: center;
+    border-top: 1px solid #666666;
+    padding-top: 20px;
+    align-content: space-between;
+}
+
+.examples {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+#v1 {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    width: 26px;
+
+}
+
+#v2 {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    width: 26px;
+
+}
+
+#v3 {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    width: 26px;
+
+}
+
+.examples p {
+    color: #85859B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 160px;
+
+}
+
+.bussines-text {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.bussines-text p {
+    margin: 0;
+}
+
+.biggest-part {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 564px;
+}
+
+.biggest-part img {
+    width: 730px;
+    height: 564px;
+}
+
+.biggest-part-text {
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: center;
+    width: 350px;
+    height: 445px;
+    font-family: "Roboto";
+    justify-content: space-between;
+}
+
+#bigger-text {
+    font-size: 40px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 40px;
+    font-family: "Roboto";
+    margin: 0;
+}
+
+.biggest-part-light-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #85859B;
+    line-height: 31px;
+}

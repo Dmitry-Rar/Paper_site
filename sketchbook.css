@@ -1,0 +1,69 @@
+.sketchbook {
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.sketchbook div {
+    width: 350px;
+    height: 272px;
+    font-family: "Roboto";
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sketchbook img {
+    width: 730px;
+    height: 410px;
+    align-self: flex-end;
+}
+
+.sketchbook div p {
+    width: 350px;
+    height: 124px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    color: #85859B;
+}
+
+.sketchbook div h2 {
+    margin: 0%;
+    width: 299px;
+    height: 40px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #666666;
+
+}
+
+.sketchbook div a {
+    width: 155px;
+    height: 30px;
+    padding: 20px 50px 20px 50px;
+    border: 1px solid #7875FE;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: center;
+    color: #7875FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+}
+
+.sketchbook div a:hover {
+    background-color: #7875FE;
+    color: white;
+    transform: scale(1.03);
+}
